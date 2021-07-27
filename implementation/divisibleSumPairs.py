@@ -61,7 +61,7 @@ from itertools import combinations
 #
 
 
-def divisibleSumPairs(n, k, ar):
+def divisibleSumPairs(n, k, ar) -> int:
     # Write your code here
     count = 0
     options = combinations(ar, 2)
