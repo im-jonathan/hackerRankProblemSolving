@@ -66,7 +66,7 @@ def divisibleSumPairs(n, k, ar):
     count = 0
     options = combinations(ar, 2)
     for option in options:
-        if (option[0] + option[1]) % k == 0:
+        if sum(option) % k == 0:
             count += 1
     return count
 
