@@ -61,7 +61,7 @@ from functools import reduce
 
 def lonelyinteger(a: list) -> int:
     # Write your code here
-    data = reduce((lambda x, y: x ^ y), a)
+    data = reduce((lambda x, y: x ^ y), a) # ^ = xor operator
     return data
 
 
